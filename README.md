@@ -1,6 +1,6 @@
-# live_bus_departure_demo
+# Bus Departure Australia Live
 
-A live bus departure demo with spring boot as backend and ReactJs as frontend
+backend , front end and android app ... download and install the APK to see the live demo..
 ![](files/demo.gif)
 
 # Backend : Spring-boot api
@@ -11,3 +11,8 @@ arranged best to be deployed in amazon ECS with AWS Fargate
 # frontend :ReactJs
 
 consumes the apis from backend and shows a simple bus departure bord like in the gif above
+
+# Native Android App
+
+consumes the api using volley library
+AutoComplete implemented as well
