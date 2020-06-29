@@ -21,4 +21,4 @@ consumes the api using volley library
 AutoComplete implemented as well
 download and install the apk to see the demo
 
-Thank!!
+Thanks!!
