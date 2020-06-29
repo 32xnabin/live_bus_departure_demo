@@ -1,5 +1,9 @@
 backend , frontend and android app ... download and install the APK to see the live demo.. working on native ios with swift for the future
 
+when you install android app or the run the reat frontend just type any Australian City and the it will autocomplete the place name.
+
+The data is live Public transport feed from https://opendata.transport.nsw.gov.au/
+
 ![](files/demo.gif)
 
 # Backend : Spring-boot api
