@@ -1,4 +1,4 @@
-backend , front end and android app ... download and install the APK to see the live demo..
+backend , frontend and android app ... download and install the APK to see the live demo.. working on native ios with swift for the future
 
 ![](files/demo.gif)
 
