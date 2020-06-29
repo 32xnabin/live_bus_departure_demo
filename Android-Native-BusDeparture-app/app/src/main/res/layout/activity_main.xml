@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.truiton.busdeparturelive.MainActivity">
+
+    <android.support.v7.widget.AppCompatAutoCompleteTextView
+        android:id="@+id/auto_complete_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        android:maxLines="1"/>
+    <TextView
+        android:id="@+id/selected_item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Departures:"
+        android:textSize="22sp"
+        android:background="#000"
+        android:textColor="#4CAF50"
+        android:layout_below="@id/auto_complete_edit_text"
+        android:layout_marginTop="5dp"
+        android:padding="0dp"/>
+
+    <TextView
+        android:id="@+id/selected_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#000"
+        android:textColor="#4CAF50"
+        android:layout_below="@id/selected_item1"
+        android:layout_marginTop="0dp"
+        android:padding="5dp"/>
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_below="@+id/selected_item"
+        android:orientation="horizontal"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></LinearLayout>
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:visibility="gone"
+        android:layout_below="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ProgressBar>
+    <ListView
+        android:layout_below="@+id/progress_circular"
+        android:id="@+id/departures"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+
+    </ListView>
+
+
+</RelativeLayout>
